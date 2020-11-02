@@ -9,7 +9,7 @@ def run_function(array)
 end
 
 def function_to_test(array)
-  array.sort
+  p array[-1]
 end
 
 def random_number
@@ -29,3 +29,4 @@ run_function(create_array_of_random(100_000))
 run_function(create_array_of_random(1_000_000))
 run_function(create_array_of_random(10_000_000))
 run_function(create_array_of_random(100_000_000))
+
